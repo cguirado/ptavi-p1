@@ -19,16 +19,16 @@ def multiplicacion (multiplicador1,multiplicador2):
 
 
 def division (dividendo,divisor):
-    if dividendo == 0:
-        sys.exit("No puedo dividir 0 entre algo")
+    if divisor == 0.0:
+        sys.exit("No puedo dividir entre 0")
     else:
         return dividendo / divisor
 
 
 if __name__ == "__main__":
     try:
-        ope1=int(sys.argv[1])
-        ope2=int(sys.argv[3])
+        ope1=float(sys.argv[1])
+        ope2=float(sys.argv[3])
         operacion=sys.argv[2]
     except ValueError:
         sys.exit("Tiene que ser enteros!")

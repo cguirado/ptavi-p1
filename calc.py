@@ -5,17 +5,25 @@
 import sys 
 def main():
     pass
+
 def suma(sumando1,sumando2):
     return sumando1 + sumando2
+
+
 def resta(resta1,resta2):
     return resta1 - resta2
+
+
 def multiplicacion (multiplicador1,multiplicador2):
     return multiplicador1 * multiplicador2
+
+
 def division (dividendo,divisor):
-    if dividendo == 0
+    if dividendo == 0:
         sys.exit("No puedo dividir 0 entre algo")
-    elif dividendo =! 0
+    else:
         return dividendo / divisor
+
 
 if __name__ == "__main__":
     try:
